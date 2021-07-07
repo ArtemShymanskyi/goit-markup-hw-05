@@ -203,7 +203,7 @@ a {
   align-items: center;
 }
 
-.header {
+.space {
   position: relative;
 }
 
@@ -213,22 +213,21 @@ a {
   position: absolute;
   width: 78px;
   height: 4px;
-  left: 481px;
-  top: 76px;
-
+  top: 45px;
+  /* bottom: -33px; */
   background: #2196f3;
   border-radius: 2px;
 }
 .current-studio::after {
-  position: absolute;
   content: "";
   display: block;
+  position: absolute;
   width: 48px;
   height: 4px;
   background: var(--accent-color);
   border-radius: 2px;
-  left: 394px;
-  top: 76px;
+  /* bottom: -33px; */
+  top: 43px;
 }
 
 /* Hero */
